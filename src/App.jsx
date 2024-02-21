@@ -92,12 +92,13 @@ const App = () => {
       <Headers />
       
       {/* <proCard/> */}
-      <Footerarea />
+    
       {/* {<Bodycards arrObj={arrObj} addTocartCount={addTocartCount} /> } */}
    
 
       {status ? <Condition setcartCount={setcartCount} cartCount={cartCount} setProducts={setProducts} products={products} /> : '' }
-    </div>
+      <Footerarea />
+      </div>
   );
 };
 
